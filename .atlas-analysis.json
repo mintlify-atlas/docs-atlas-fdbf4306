@@ -1,0 +1,66 @@
+{
+  "projectType": "saas",
+  "projectName": "Character Headcanon Generator",
+  "projectDescription": "AI-powered tool that helps you craft compelling character backstories, quirks, and lore for fan fiction and creative writing.",
+  "theme": "almond",
+  "primaryColor": "#8B5CF6",
+  "lightColor": "#A78BFA",
+  "darkColor": "#6D28D9",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/character-creation",
+              "features/length-options",
+              "features/customization"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/writing-tips",
+              "guides/best-practices",
+              "guides/examples"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Help",
+            "pages": [
+              "faq",
+              "support"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI-powered character headcanon generation",
+    "Customizable headcanon length (Very Short to Very Long)",
+    "Optional additional details for personalization",
+    "Instant generation within seconds",
+    "Authentic backstories for fictional universes or original characters"
+  ],
+  "publicApiSurface": [
+    "Character Name input field",
+    "Length selection (Very Short, Short, Medium, Long, Very Long)",
+    "Additional Details input field (optional)",
+    "Generate button"
+  ]
+}
